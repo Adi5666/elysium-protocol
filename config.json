@@ -1,0 +1,93 @@
+{
+  "default_prefix": "!",
+  "tick_interval": 60,
+  "spawn_cleanup_interval": 120,
+  "default_announce_channel": null,
+  "weekly_summary_opt_in_default": false,
+  "spawn_rates": {
+    "base": 0.12,
+    "premium_multiplier": 1.5,
+    "server_premium_multiplier": 2.0
+  },
+  "rarity_weights": {
+    "Common": 48,
+    "Uncommon": 28,
+    "Rare": 14,
+    "Epic": 6,
+    "Legendary": 3,
+    "Mythic": 1
+  },
+  "rarity_colors": {
+    "Common": "#B0B0B0",
+    "Uncommon": "#66CC66",
+    "Rare": "#3399FF",
+    "Epic": "#A259F7",
+    "Legendary": "#FFD700",
+    "Mythic": "#FF3860"
+  },
+  "premium": {
+    "user_xp_multiplier": 1.25,
+    "user_loot_multiplier": 1.25,
+    "user_spawn_multiplier": 1.20,
+    "inventory_pages": 6,
+    "profile_cosmetic_slots": 5,
+    "shiny_odds_multiplier": 2,
+    "early_access": true
+  },
+  "server_premium": {
+    "base_spawn_rate": 0.24,
+    "event_spawn_rate": 0.08,
+    "exclusive_raid_chance": 0.05,
+    "banner_slot": true,
+    "faction_banner_slot": true
+  },
+  "bot_premium": {
+    "cross_server_events": true,
+    "global_boss_shiny": true,
+    "premium_mode_toggle": true
+  },
+  "claim": {
+    "rate_limit_seconds": 5,
+    "max_claims_per_user_per_hour": 20,
+    "anti_snipe_window": 2,
+    "min_typing_delay": 0.6,
+    "claim_timeout": 20
+  },
+  "shiny": {
+    "unlock_milestone_events": [
+      "mythic_capture",
+      "prestige_level",
+      "fusion_success"
+    ],
+    "base_odds": 0.005,
+    "premium_odds": 0.01,
+    "server_premium_odds": 0.007,
+    "shiny_frame": "✨",
+    "shiny_badge": "🌟"
+  },
+  "profile": {
+    "bio_max_length": 160,
+    "title_max_length": 32,
+    "accent_color_default": "#3399FF",
+    "banner_url_max_length": 128
+  },
+  "trade": {
+    "market_fee_percent": 2,
+    "tax_percent": 1,
+    "max_offers_per_user": 8,
+    "pagination_size": 5
+  },
+  "crafting": {
+    "queue_max_length": 5,
+    "fusion_shiny_chance": 0.004,
+    "artifact_proc_chance": 0.025
+  },
+  "backup": {
+    "retention_days": 14,
+    "auto_backup_interval_hours": 24
+  },
+  "events": {
+    "anomaly_chance": 0.006,
+    "quest_spawn_chance": 0.03
+  }
+}

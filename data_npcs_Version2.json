@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Ironfoot",
+    "rarity": "Common",
+    "category": "spawn",
+    "role": "worker",
+    "stats_json": "{\"hp\": 30, \"atk\": 8, \"def\": 6}",
+    "abilities_json": "{\"basic\": \"Hammer Strike\"}",
+    "lore": "A sturdy worker NPC.",
+    "image_url": "https://elysium-assets.com/npc_ironfoot.png",
+    "shiny_asset_tag": "ironfoot_shiny"
+  },
+  {
+    "id": 2,
+    "name": "Azure Wisp",
+    "rarity": "Rare",
+    "category": "spawn",
+    "role": "mage",
+    "stats_json": "{\"hp\": 22, \"atk\": 18, \"def\": 4}",
+    "abilities_json": "{\"basic\": \"Arcane Pulse\"}",
+    "lore": "A mysterious magical entity.",
+    "image_url": "https://elysium-assets.com/npc_azurewisp.png",
+    "shiny_asset_tag": "azurewisp_shiny"
+  }
+]
